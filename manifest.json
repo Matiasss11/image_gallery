@@ -1,0 +1,20 @@
+{
+    "name": "Image Gallery",
+    "description": "A simple gallery visualization for images",
+    "data": {
+      "dimensions": ["Image URL", "Alt Text"],
+      "metrics": []
+    },
+    "style": {
+      "columns": {
+        "type": "number",
+        "default": 3,
+        "description": "Number of columns in the gallery"
+      }
+    },
+    "resources": {
+      "js": ["index.js"],
+      "html": "index.html"
+    }
+  }
+  
