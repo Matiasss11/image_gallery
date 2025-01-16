@@ -1,20 +1,20 @@
 {
-    "name": "Image Gallery",
-    "description": "A simple gallery visualization for images",
-    "data": {
+  "visualizationId": "image-gallery",
+  "name": "Image Gallery",
+  "description": "A simple gallery visualization for images",
+  "data": {
       "dimensions": ["Image URL", "Alt Text"],
       "metrics": []
-    },
-    "style": {
+  },
+  "style": {
       "columns": {
-        "type": "number",
-        "default": 3,
-        "description": "Number of columns in the gallery"
+          "type": "number",
+          "default": 3,
+          "description": "Number of columns in the gallery"
       }
-    },
-    "resources": {
-      "js": ["index.js"],
-      "html": "index.html"
-    }
+  },
+  "resources": {
+      "js": ["https://matiasss11.github.io/image_gallery/index.js"],
+      "html": "https://matiasss11.github.io/image_gallery/index.html"
   }
-  
+}
